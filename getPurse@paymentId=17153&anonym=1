@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/d0f8aa85/css/style.css" />
+<title>ddfedor.biz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link href="../https@fonts.googleapis.com/css@family=Open+Sans_3A400,700" rel="stylesheet">
+    <script src="../https@ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../https@html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            <script>
+        $(document).ready(function () {
+            var currentUrl = window.location.href;
+            $('section#menu a').each(function (index, value) {
+                if ($(this).prop("href") === currentUrl) {
+                    $(this).parent().addClass("selected");
+                    $(this).parent().prev().addClass("noborder");
+                }
+            });
+        });
+    </script>
+        <script src="assets/d0f8aa85/js/script.js"></script>
+</head>
+<body>
+
+
+<div class="content">
+            <section id="userpanel">
+                            <a class="block" href="user/login">Войти</a>
+                <a class="block ok" href="user/registration">Регистрация</a>
+                    </section>
+
+    
+    <section id="menu">
+        <ul>
+            <li class="left">
+                <ul>
+                    <li><a href="default.htm">Товары</a></li>
+                    <li><a href="check">Проверка заказа</a></li>
+                    <li><a href="reviews">Отзывы</a></li>
+                </ul>
+            </li>
+            <li class="logo"><a href="default.htm">
+                    <span>ddfedor.biz</span>
+                    <img src="assets/d0f8aa85/img/logo.png">
+                </a></li>
+            <li class="right">
+                <ul>
+                                            <li><a href="page/1">Вакансии</a></li>
+                                    </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="mobile">
+        <div>
+            <div class="mlogo">
+                <a href="default.htm">
+                    <span>ddfedor.biz</span>
+                    <img class="logo" src="assets/d0f8aa85/img/logo.png">
+                </a>
+            </div>
+            <a href="#" class="block mblock">Меню</a>
+        </div>
+        <ul class="slideMenu">
+            <li><a href="default.htm">Товары</a></li>
+            <li><a href="check">Проверка заказа</a></li>
+            <li><a href="reviews">Отзывы</a></li>
+                            <li><a href="page/1">Вакансии</a></li>
+                    </ul>
+    </section>
+
+            <script type="text/javascript">
+            (function () {
+                var chat_s = document.createElement('script');
+                chat_s.type = 'text/javascript';
+                chat_s.async = true;
+                chat_s.src = top.location.protocol + '//chat.iklad-chat.biz/code.cgi?c=4892' + (top.location.protocol == 'http:' ? '' : '&ssl=1') + '&rnd=' + Math.random();
+                document.body.appendChild(chat_s);
+            })();
+        </script>
+    
+    
+    <div class="title">Получение кошелька</div>
+<section id="check" class="border">
+        <form method="post">
+                            <ul>
+                    <li>Введите код с картинки</li>
+                    <li class="captcha">
+                        <img id="yw0" src="site/captcha@v=5a29986bbf102" alt="" />                        <input type="text" class="input" name="captcha"></li>
+                </ul>
+
+                <div>
+                    <span><input type="submit" value="Получить" class="block"></span>
+                </div>
+                    </form>
+</section>
+</div>
+
+<img class="logo" src="assets/d0f8aa85/img/buy_h.png" style="display: none;">
+<script type="text/javascript">
+/*<![CDATA[*/
+(function (d, w) {
+            var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "/counter?_="+Math.random();
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+   
+        })(document, window);
+/*]]>*/
+</script>
+</body>
+</html>

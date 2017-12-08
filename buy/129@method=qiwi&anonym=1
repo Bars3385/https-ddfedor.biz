@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../assets/d0f8aa85/css/style.css" />
+<script type="text/javascript" src="../assets/2cf91f02/jquery.min.js"></script>
+<title>ddfedor.biz - Покупка</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link href="../../https@fonts.googleapis.com/css@family=Open+Sans_3A400,700" rel="stylesheet">
+    <script src="../../https@ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../../https@html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            <script>
+        $(document).ready(function () {
+            var currentUrl = window.location.href;
+            $('section#menu a').each(function (index, value) {
+                if ($(this).prop("href") === currentUrl) {
+                    $(this).parent().addClass("selected");
+                    $(this).parent().prev().addClass("noborder");
+                }
+            });
+        });
+    </script>
+        <script src="../assets/d0f8aa85/js/script.js"></script>
+</head>
+<body>
+
+
+<div class="content">
+            <section id="userpanel">
+                            <a class="block" href="../user/login">Войти</a>
+                <a class="block ok" href="../user/registration">Регистрация</a>
+                    </section>
+
+    
+    <section id="menu">
+        <ul>
+            <li class="left">
+                <ul>
+                    <li><a href="../default.htm">Товары</a></li>
+                    <li><a href="../check">Проверка заказа</a></li>
+                    <li><a href="../reviews">Отзывы</a></li>
+                </ul>
+            </li>
+            <li class="logo"><a href="../default.htm">
+                    <span>ddfedor.biz</span>
+                    <img src="../assets/d0f8aa85/img/logo.png">
+                </a></li>
+            <li class="right">
+                <ul>
+                                            <li><a href="../page/1">Вакансии</a></li>
+                                    </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="mobile">
+        <div>
+            <div class="mlogo">
+                <a href="../default.htm">
+                    <span>ddfedor.biz</span>
+                    <img class="logo" src="../assets/d0f8aa85/img/logo.png">
+                </a>
+            </div>
+            <a href="#" class="block mblock">Меню</a>
+        </div>
+        <ul class="slideMenu">
+            <li><a href="../default.htm">Товары</a></li>
+            <li><a href="../check">Проверка заказа</a></li>
+            <li><a href="../reviews">Отзывы</a></li>
+                            <li><a href="../page/1">Вакансии</a></li>
+                    </ul>
+    </section>
+
+            <script type="text/javascript">
+            (function () {
+                var chat_s = document.createElement('script');
+                chat_s.type = 'text/javascript';
+                chat_s.async = true;
+                chat_s.src = top.location.protocol + '//chat.iklad-chat.biz/code.cgi?c=4892' + (top.location.protocol == 'http:' ? '' : '&ssl=1') + '&rnd=' + Math.random();
+                document.body.appendChild(chat_s);
+            })();
+        </script>
+    
+    
+    <div class="title">Страница покупки</div>
+<section id="buy" class="border">
+    <h1>Вы приобретаете</h1>
+    <p><span class="light">Кр белые 0.5г</span></p>
+    <p>Стоимость <span class="light">1100 руб.</span></p>
+    <p>Город <span class="light">Владимир</span></p>
+    <p>Район <span class="light">Не выбран</span></p>
+    <p>Для приобретения выбранного товара, оплатите <span class="light">1100 рублей</span> на QIWI
+        кошелек:</p>
+    <p><span class="light phone"><a href="../getPurse@paymentId=17148&anonym=1">Получить QIWI кошелек</a></span></p>
+    <p>Комментарий к платежу <span class="light">36037317</span></p>
+    <p>Внимание! Обязательно укажите этот комментарий при оплате, иначе оплата не будет засчитана в автоматическом
+        режиме.</p>
+    <p><span class="light">Заказ #17148</span></p>
+    <p>Это номер вашего заказа, запомните его. По номеру заказа и комментарию вы сможете узнать статус заказа
+        (получить адрес) в любой момент и с любого устройства на странице <a
+            href="../check">проверка заказа</a></p>
+    <br/>
+    <p id="ajaxLoader"
+       style="text-align: center;display: none;"><img src="../assets/71c1a562/square-loader.gif" alt="" /></p>
+    <div class="check-area">
+        <p id="info">
+            После оплаты нажмите кнопку, чтобы получить адрес
+        </p>
+        <div style="margin:20px 0;">
+                <span><input class="block" name="yt0" type="button" value="Проверить" id="yt0" /></span>
+        </div>
+        <p>Проверить платеж по чеку можно <a href="../../https@qiwi.com/support/check.action" target="_blank">здесь</a>
+        </p>
+    </div>
+</section>
+</div>
+
+<img class="logo" src="../assets/d0f8aa85/img/buy_h.png" style="display: none;">
+<script type="text/javascript">
+/*<![CDATA[*/
+(function (d, w) {
+            var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "/counter?_="+Math.random();
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+   
+        })(document, window);
+jQuery(function($) {
+jQuery('body').on('click','#yt0',function(){jQuery.ajax({'data':{'id':'17148','comment':'36037317'},'beforeSend':function(){ $("#ajaxLoader").show();},'complete':function(){ $("#ajaxLoader").hide();},'url':'../check','cache':false,'success':function(html){jQuery("#info").html(html)}});return false;});
+});
+/*]]>*/
+</script>
+</body>
+</html>
